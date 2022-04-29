@@ -1,0 +1,40 @@
+{
+  "name": "next-yup-jest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --forceExit --env=jsdom --collectCoverage --detectOpenHandles --verbose --bail"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.8.8",
+    "next": "12.1.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.30.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "<13.0.0",
+    "@types/node": "17.0.30",
+    "@types/jest": "27.4.1",
+    "@types/react": "18.0.8",
+    "@types/react-dom": "18.0.3",
+    "babel-jest": "^28.0.3",
+    "eslint": "<9.0.0",
+    "eslint-config-next": "^12.1.5",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "jest": "28.0.3",
+    "jest-axe": "^6.0.0",
+    "jest-environment-jsdom": "28.0.2",
+    "typescript": "4.5.5"
+  }
+}
