@@ -5,7 +5,7 @@ describe('# Index (home) Page', () => {
         render(<Home />);
     });
   
-    it('should render correctly', async () => {
+    it('should render correctly', () => {
         expect(screen.getByText('Testing App')).toBeInTheDocument();
     });
 });
