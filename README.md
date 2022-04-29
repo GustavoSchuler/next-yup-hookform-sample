@@ -1,6 +1,9 @@
 Minimal project to reproduce the Jest v28 `SyntaxError: Cannot use import statement outside a module` using @hookform/resolvers.
 Issue: [#396](https://github.com/react-hook-form/resolvers/issues/396)
 
+![image](https://user-images.githubusercontent.com/10119079/165988137-5508df0e-f109-4aea-9d69-087453fc16cc.png)
+
+
 ## Getting Started
 
 First, install all dependencies:
